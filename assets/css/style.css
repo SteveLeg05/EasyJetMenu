@@ -195,6 +195,30 @@ h4 {
   background-color: transparent;
 }
 
+.questions {
+  /* border: solid 2px black; */
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: scroll;
+  margin: 40px 0px;
+}
+.questions div {
+  background-color: #353030;
+  height: 150px;
+  width: 150px;
+  flex-shrink: 0;
+  border-radius: 15px;
+
+  /* border: solid 2px red; */
+}
+.questions p {
+  color: white;
+  padding-top: 5px;
+  padding-left: 10px;
+}
 /* footer */
 
 footer {
