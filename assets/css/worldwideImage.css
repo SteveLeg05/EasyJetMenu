@@ -1,0 +1,38 @@
+.worldwide-img {
+  /* border: solid 2px green; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 0 20px;
+}
+.worldwide-img img {
+  /* border: solid 2px red; */
+  height: 220px;
+  width: 285px;
+  object-fit: cover;
+  border-radius: 5px;
+  box-shadow: rgb(224, 224, 224) 2px 2px 2px 2px;
+}
+
+.box-relative {
+  position: relative;
+}
+.box-relative p {
+  position: absolute;
+  top: 20px;
+  left: 15px;
+  font-size: 26px;
+  color: white;
+  line-height: 25px;
+}
+.box-relative button {
+  position: absolute;
+  bottom: 20px;
+  left: 15px;
+  font-size: 18px;
+  color: white;
+  border: none;
+  background-color: transparent;
+}

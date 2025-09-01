@@ -1,0 +1,156 @@
+.reservation {
+  /* border: solid 2px red; */
+  background-color: white;
+  padding: 20px 10px;
+  font-family: easyJet Headline, sans-serif;
+  height: 480px;
+  width: 320px;
+  /* border: 1px solid black; */
+  font-size: 20px;
+  color: black;
+}
+hr {
+  width: 75%;
+  color: #eee;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+}
+/* --------- */
+
+/* CHECKBOX */
+.input-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+input[type="checkbox"] {
+  margin: 10px 5px;
+  height: 30px;
+  width: 30px;
+}
+
+/* --------- */
+
+/* VOL DEPART-RETOUR */
+.reservation-depart-retour {
+  /* border: solid 2px green; */
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0px;
+}
+.depart-retour {
+  border: solid 1px #eee;
+  width: 100%;
+  padding: 5px;
+  /* margin-bottom: 10px; */
+}
+
+input[type="text"] {
+  border: none;
+}
+
+.depart-retour-icone {
+  font-size: 25px;
+  /* border: solid 2px black; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  margin-left: 10px;
+  color: #f70;
+}
+
+/* ------------- */
+
+/* ALLER-RETOUR */
+
+.reservation-aller-retour {
+  font-size: 20px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  /* border: solid 2px red; */
+  height: 100%;
+  width: 100%;
+  /* padding: 5px 0; */
+  color: #f60;
+}
+.div-aller-retour {
+  padding: 5px 0;
+  /* border: solid 2px blue; */
+  border: solid 1px #eee;
+  flex: 2;
+}
+.aller-retour i {
+  font-size: 25px;
+}
+.aller-retour {
+  display: flex;
+  align-items: center;
+}
+
+.vide {
+  /* border: solid 2px red; */
+  width: 40px;
+}
+
+/* ------------- */
+
+/* PERSONNES */
+.maDiv {
+  display: flex;
+  justify-content: space-between;
+}
+.personnes {
+  /* border: solid 2px green; */
+  line-height: 30px;
+  margin-bottom: 10px;
+}
+.personnes span {
+  font-size: 20px;
+}
+
+.number {
+  font-size: 20px;
+  /* font-weight: bold; */
+}
+
+.symboles {
+  height: 25px !important;
+  width: 25px !important;
+  font-size: 20px;
+  /* font-weight: bold; */
+  color: #f60;
+}
+
+/* ------------- */
+
+/* AFFICHER LES VOLS */
+
+.afficher {
+  background-color: #f70;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 3px;
+}
+
+.afficher button {
+  height: 30px !important;
+  color: white;
+  font-size: 15px;
+  border: none;
+}
+
+/* ------------- */
+
+/* INFORMATIONS */
+
+.infos {
+  margin: 10px 0px;
+  line-height: 25px;
+  color: #f60;
+}

@@ -1,0 +1,14 @@
+@media (max-width: 1115px) {
+  .hidden-1115 {
+    display: none;
+  }
+}
+
+/* hide by default */
+.phone-display {
+  display: none;
+}
+
+.white-icon {
+  color: white;
+}
